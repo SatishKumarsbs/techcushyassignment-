@@ -49,7 +49,7 @@ const deleteEmp = async id => {
                </Link>
                <Link
                  className="btn btn-outline-primary mr-2"
-                 to={`employee/editemp/${employees}`}
+                 to={`employee/editemp/${employees.id}`}
                >
                  Edit
                </Link>
